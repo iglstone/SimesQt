@@ -26,6 +26,7 @@ private slots:
     void on_BtConnectPlc_clicked();
     void PlcOk();
     void TimEvent();
+    int i;
 
 private:
     Ui::ConSiemensPlcs *ui;
