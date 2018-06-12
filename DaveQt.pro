@@ -24,7 +24,7 @@ SOURCES += main.cpp\
     qcustomplot.cpp \
     plotwindow.cpp \
     item.cpp \
-    consiemensplcs.cpp
+    ConSiemensPlcs.cpp
 
 HEADERS  += mainwindow.h \
     plcqtlib.h \
@@ -32,11 +32,11 @@ HEADERS  += mainwindow.h \
     plotwindow.h \
     item.h \
     libnodave/nodave.h \
-    consiemensplcs.h
+    ConSiemensPlcs.h
 
 FORMS    += mainwindow.ui \
     plotwindow.ui \
-    consiemensplcs.ui
+    ConSiemensPlcs.ui
 
 #win32: LIBS += -L$$PWD/libnodave/ -llibnodave
 #INCLUDEPATH += $$PWD/libnodave

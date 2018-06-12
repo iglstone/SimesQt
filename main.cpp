@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include <QApplication>
-#include "consiemensplcs.h"
+#include "ConSiemensPlcs.h"
 
 int main(int argc, char *argv[])
 {

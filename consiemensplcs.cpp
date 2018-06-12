@@ -1,4 +1,4 @@
-#include "consiemensplcs.h"
+#include "ConSiemensPlcs.h"
 #include "ui_consiemensplcs.h"
 
 ConSiemensPlcs::ConSiemensPlcs(QWidget *parent) :
@@ -55,7 +55,7 @@ void ConSiemensPlcs::on_BtConnectPlc_clicked()
     QString plcType = "S71200"; // or "S7200"
     QString plcIP = "192.168.0.100";
 
-    int statotcp = siemsPlc->setTcp(plcIP,102);
+    int statotcp = siemsPlc->setTcp(plcIP, 102);
 
     int mpi,rack,slot;
     mpi = 2;    rack = 0;    slot = 0;
